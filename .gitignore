@@ -1,0 +1,4 @@
+# тестовые / вспомогательные файлы
+reset_db.py
+test_cascade.py
+*.db
