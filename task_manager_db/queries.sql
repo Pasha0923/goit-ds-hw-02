@@ -42,7 +42,7 @@ WHERE id NOT IN (
     FROM tasks
 );
 
--- Додаємо нову задачу для користувача з user_id = 14
+-- Додаємо нову задачу для користувача з user_id = 1
 INSERT INTO tasks (title, description, status_id, user_id)
 VALUES ('Learn SQL','Complete SQL practice exercises',
     (SELECT id FROM status WHERE name = 'new'),
@@ -58,7 +58,7 @@ WHERE s.name != 'completed';
 
 -- Видалити задачу з id = 7
 DELETE FROM tasks
-WHERE id = 12;
+WHERE id = 7;
 
 
 -- Знайти користувачів, email яких містить 'mail.com'
