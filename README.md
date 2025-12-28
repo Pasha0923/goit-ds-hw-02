@@ -66,3 +66,9 @@ The database contains three tables:
 * users — system users
 * status — task statuses (new, in progress, completed)
 * tasks — tasks assigned to users
+
+## Notes
+
+- The SQLite database file (`tasks.db`) is excluded from version control and generated locally using `create_db.py` and `seed.py`.
+- Test and helper scripts are used only for local verification and are excluded via `.gitignore`.
+- The project focuses on demonstrating SQL queries, table relationships, and cascade deletion in SQLite.
